@@ -14,8 +14,8 @@ def index_documents(documents, index):
         if i % 5000 == 0:
             print(f'Indexed {i} documents', end='\r')
         # testing only
-        if i == 100000:
-            break
+        #if i == 100000:
+        #    break
     return index
 
 
