@@ -29,7 +29,7 @@ if __name__ == '__main__':
     firstPass = True
     while True:
         # Prompt user for search terms
-        searchTerms = str(input("Enter AND search terms:"))
+        searchTerms = str(input("Enter search terms:"))
         # Prompt user for search Type
         searchType = str(input("Enter AND search type(AND/OR) will default to AND:"))
 
